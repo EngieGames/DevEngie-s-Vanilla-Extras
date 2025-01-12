@@ -1,0 +1,55 @@
+{
+  "mod_elements": [
+    {
+      "name": "TickFunctions",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tick_functions",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/functions/tick.json"
+        ]
+      }
+    },
+    {
+      "name": "LoadFunctions",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "load_functions",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/functions/load.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "devengies_vanilla_extras",
+    "modName": "DevEngie\u0027s Vanilla Extras",
+    "version": "1.0.0",
+    "author": "engif, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.devengiesvanillaextras",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
