@@ -1,4 +1,6 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "devengies_vanilla_extras:loadtpa"
+  ]
 }

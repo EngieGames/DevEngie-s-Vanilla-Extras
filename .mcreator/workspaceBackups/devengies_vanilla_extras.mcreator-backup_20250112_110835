@@ -249,48 +249,6 @@
         ]
       },
       "path": "~/TPA"
-    },
-    {
-      "name": "TriggerTpdeny",
-      "type": "function",
-      "sortid": 19,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "trigger_tpdeny",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/devengies_vanilla_extras/functions/trigger_tpdeny.mcfunction"
-        ]
-      },
-      "path": "~/TPA"
-    },
-    {
-      "name": "Uninstall",
-      "type": "function",
-      "sortid": 20,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "uninstall",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/devengies_vanilla_extras/functions/uninstall.mcfunction"
-        ]
-      },
-      "path": "~/TPA"
-    },
-    {
-      "name": "UntagOlderSenders",
-      "type": "function",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "untag_older_senders",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/devengies_vanilla_extras/functions/untag_older_senders.mcfunction"
-        ]
-      },
-      "path": "~/TPA"
     }
   ],
   "variable_elements": [],
@@ -303,10 +261,6 @@
     "children": [
       {
         "name": "TPA",
-        "children": []
-      },
-      {
-        "name": "CopperItems",
         "children": []
       }
     ]

@@ -5,7 +5,9 @@
     "type": "Functions",
     "items": [],
     "blocks": [],
-    "functions": [],
+    "functions": [
+      "Loadtpa"
+    ],
     "entities": [],
     "biomes": [],
     "name": "load",

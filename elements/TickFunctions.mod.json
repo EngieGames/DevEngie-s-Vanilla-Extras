@@ -5,7 +5,9 @@
     "type": "Functions",
     "items": [],
     "blocks": [],
-    "functions": [],
+    "functions": [
+      "Tpatick"
+    ],
     "entities": [],
     "biomes": [],
     "name": "tick",

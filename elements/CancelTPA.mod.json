@@ -1,0 +1,9 @@
+{
+  "_fv": 39,
+  "_type": "function",
+  "definition": {
+    "code": "tag @s add tpa.cancelSender\nexecute if entity @s[tag=tpa.sender] run tellraw @s {\"text\":\"You have cancelled your previous teleport request.\",\"color\":\"red\"}\nexecute unless entity @s[tag=tpa.sender] run tellraw @s {\"text\":\"You have cancelled your teleport request.\",\"color\":\"gold\"}\nexecute as @a if score @s tpa.pid = @a[tag=tpa.cancelSender,limit=1] tpa.target run tellraw @s [\"\",{\"selector\":\"@a[tag=tpa.cancelSender]\",\"color\":\"red\"},{\"text\":\" has cancelled their teleport request.\",\"color\":\"red\"}]\nscoreboard players reset @s tpa.target\nscoreboard players reset @s tpa.timeout\ntag @s remove tpa.cancelSender",
+    "name": "cancel_tpa",
+    "namespace": "mod"
+  }
+}

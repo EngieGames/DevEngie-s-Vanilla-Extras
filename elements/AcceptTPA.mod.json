@@ -1,0 +1,9 @@
+{
+  "_fv": 39,
+  "_type": "function",
+  "definition": {
+    "code": "tellraw @a[tag=tpa.target] [{\"text\":\"You have accepted \",\"color\":\"gold\"},{\"selector\":\"@s\",\"color\":\"yellow\"},{\"text\":\"'s teleport request.\",\"color\":\"gold\"}]\ntellraw @s [\"\",{\"selector\":\"@a[tag=tpa.target]\",\"color\":\"yellow\"},{\"text\":\" has accepted your teleport request.\",\"color\":\"gold\"}]\nexecute unless score cooldown tpa.config matches 0 run scoreboard players operation @s tpa.cooldown = cooldown tpa.config\nexecute at @s run function back:set_back\ntp @s @a[tag=tpa.target,limit=1]\nscoreboard players reset @s tpa.target\nscoreboard players reset @s tpa.timeout\ntag @s remove tpa.sender",
+    "name": "accept_tpa",
+    "namespace": "mod"
+  }
+}

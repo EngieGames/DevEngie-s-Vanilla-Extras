@@ -1,0 +1,133 @@
+{
+  "mod_elements": [
+    {
+      "name": "TickFunctions",
+      "type": "tag",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tick_functions",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/functions/tick.json"
+        ]
+      }
+    },
+    {
+      "name": "LoadFunctions",
+      "type": "tag",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "load_functions",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/functions/load.json"
+        ]
+      }
+    },
+    {
+      "name": "AcceptTPA",
+      "type": "function",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "accept_tpa",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/devengies_vanilla_extras/functions/accept_tpa.mcfunction"
+        ]
+      },
+      "path": "~/TPA"
+    },
+    {
+      "name": "CancelTPA",
+      "type": "function",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cancel_tpa",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/devengies_vanilla_extras/functions/cancel_tpa.mcfunction"
+        ]
+      },
+      "path": "~/TPA"
+    },
+    {
+      "name": "Config",
+      "type": "function",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "config",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/devengies_vanilla_extras/functions/config.mcfunction"
+        ]
+      },
+      "path": "~/TPA"
+    },
+    {
+      "name": "DecrementCooldown",
+      "type": "function",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decrement_cooldown",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/devengies_vanilla_extras/functions/decrement_cooldown.mcfunction"
+        ]
+      },
+      "path": "~/TPA"
+    },
+    {
+      "name": "DecrementCooldowns",
+      "type": "function",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decrement_cooldowns",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/devengies_vanilla_extras/functions/decrement_cooldowns.mcfunction"
+        ]
+      },
+      "path": "~/TPA"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "TPA",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "devengies_vanilla_extras",
+    "modName": "DevEngie\u0027s Vanilla Extras",
+    "version": "1.0.0",
+    "author": "engif, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.devengiesvanillaextras",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

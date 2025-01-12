@@ -1,0 +1,9 @@
+{
+  "_fv": 39,
+  "_type": "function",
+  "definition": {
+    "code": "tellraw @a[tag=tpa.target] [{\"text\":\"You have denied \",\"color\":\"gold\"},{\"selector\":\"@s\",\"color\":\"yellow\"},{\"text\":\"'s teleport request.\",\"color\":\"gold\"}]\ntellraw @s [\"\",{\"selector\":\"@a[tag=tpa.target]\",\"color\":\"red\"},{\"text\":\" has denied your teleport request.\",\"color\":\"red\"}]\nscoreboard players reset @s tpa.target\nscoreboard players reset @s tpa.timeout\ntag @s remove tpa.sender",
+    "name": "deny_tpa",
+    "namespace": "mod"
+  }
+}

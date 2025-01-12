@@ -1,0 +1,9 @@
+{
+  "_fv": 39,
+  "_type": "function",
+  "definition": {
+    "code": "schedule clear devengies_vanilla_extras:tick\nschedule clear devengies_vanilla_extras:decrement_cooldowns\nscoreboard objectives remove tpa.config\nscoreboard objectives remove tpa.pid\nscoreboard objectives remove tpa.target\nscoreboard objectives remove tpa.timeout\nscoreboard objectives remove tpa.cooldown\nscoreboard objectives remove tpa\nscoreboard objectives remove tpcancel\nscoreboard objectives remove tpaccept\nscoreboard objectives remove tpdeny",
+    "name": "uninstall",
+    "namespace": "mod"
+  }
+}
